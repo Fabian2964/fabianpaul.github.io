@@ -30,7 +30,7 @@ let austria = new destination(
     ["Brother", "Mother", "mother's partner / boyfriend)"],
     16.4,
     48.2,
-    ["vienna_1.JPG", "vienna_2.jpg", "vienna_3.jpg", "vienna_4.jpg"],
+    ["vienna_1.jpg", "vienna_2.jpg", "vienna_3.jpg", "vienna_4.jpg"],
     "https://www.wien.info/en"
 )
 
