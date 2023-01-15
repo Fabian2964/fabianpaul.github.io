@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabian's World Tour</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="css/styles.css">
+    <script type="module" src="js/map.js"></script>
+    <script type="module" defer src="js/destination_class.js"></script>
+    <script type="module" defer src="js/script.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCq1h4Ewg1YD7Ebs9tGSUvBM1uiY9fsjZE&callback=initMap&v=weekly"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <main>
+      <!-- ***********************  Header & Navigation  *********************** -->
+      <header>
+        <div class="main-header">
+          <h1>Fabian's Travel Blog</h1>
+        </div>
+      </header>
+      <nav class="navbar">
+        <div class="grid-item dropdown">
+          <button class="dropbtn">Time-Period
+          </button>
+          <div class="dropdown-content dropdown-content-year" id="dropdown-year">
+            <a href="#">All</a>
+          </div>
+        </div>
+        <div class="grid-item dropdown">
+          <button class="dropbtn">Regions
+          </button>
+          <div class="dropdown-content dropdown-content-regions" id="dropdown-regions">
+            <a href="#">All</a>
+          </div>
+        </div>
+        <div class="grid-item dropdown">
+          <button class="dropbtn">Countries
+          </button>
+          <div class="dropdown-content dropdown-content-countries" id="dropdown-countries">
+            <a href="#">All</a>
+          </div>
+        </div>
+        <a href="#About-me" class="grid-item menu">About</a>
+      </nav>
+
+    <!-- ********************  Statistics  ********************* -->
+      <div class="img-wrapper">
+        <section class="statistics" id="statistics-elements">
+        </section>
+
+      <!-- ***********************  Map  *********************** -->
+        <section class="map" id="map_neighbor">
+          <div class="section-container-map" id="map"></div>
+        </section>
+      </div>
+
+      <!-- ***********************  Journey Details  *********************** -->
+      <section class="journeys-wrapper fade-in-section">
+        <div class="journey-details divider" id="journey-det"></div>
+      </section>
+
+      <!-- ******************  About ****************** -->
+      <section class="About" id="About-me">
+        <div class="content-wrap-about">
+          <div class="About-Section">
+            <div class="List-Container">
+              <h2 class="About-Header">About me</h2>
+              <ul class="About-List"></ul>
+                <li class="About-Items">My name is Fabian Paul, a data scientist living in Munich, Germany.</li>
+                <li class="About-Items">Since beeing a teenager I have been fascinated by travellig.</li>
+                <li class="About-Items">Over the years I travelled to various countries around the world.</li>
+                <li class="About-Items">Since my little daugther keeps me busy by now, my travel activities have gotten more quiet during the past months.</li>
+                <li class="About-Items">However, by creating this blog and reviewing past destinations I would like to share my passion and some great memories.</li>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <footer>
+        <div class="footer">
+          <h2 class="footer-header">Contact me for travel advice!</h2>
+
+          <!-- Social media and contact links-->
+          <ul class="contact-list">
+            <li><a href="mailto:fabianpaul1@gmx.de">fabianpaul1@gmx.de</a></li>
+            <li><a href="https://www.linkedin.com/in/fab-paul" target="Linkedin">https://www.linkedin.com/in/fab-paul/</a></li>
+            <li><a href="https://github.com/Fabian2964" target="Github">https://github.com/Fabian2964</a></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
